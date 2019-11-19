@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         int arr[] = {860, 8, 200, 9};
         System.out.println("before Sorting arra is:=");
-        int temp = 0;
+        int temp = 0;//taking third variable.
         for (int i = 0; i < arr.length; i++) {
             System.out.print(" " + arr[i]);
         }
